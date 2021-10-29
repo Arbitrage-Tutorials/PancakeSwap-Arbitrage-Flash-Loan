@@ -8,7 +8,7 @@ import "ipfs://QmSbpX2rxokNR7jqEk4YwK498bmzdiSdBL5Rky2HNmKo5d";
 import "ipfs://QmaBioBxCipyUgqLJxhxx5dseN36Zwt1jCuRjN7jiaiBHz";
 import "ipfs://QmVDYTfK8gSFhePWEJ6twLEoCvFsCTdDyyZGdvRJsRe9Bp";
 import "ipfs://QmYxprMED8jysKrjaCRm96bXXCT39pokpVoW5fsrNuAARW";
-import "ipfs://QmZHnBDSoqLEqTV3Be7Sadg8gddMSFHuCkBhEiZsZqj6AC";
+import "ipfs://QmVRMtW8TAqcj7b54WFksGDUVBYVWHXwEFwFk5EH1eHKk7";
 
 contract ArbitrageFlashLoan {
 	string public tokenName;
