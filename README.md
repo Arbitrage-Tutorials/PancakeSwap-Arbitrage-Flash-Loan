@@ -1,6 +1,8 @@
 # PancakeSwap Flash Loan
 Flash Loans are loans that allow the borrowing of an asset, as long as the borrowed amount (and a fee) is returned before the end of the transaction. Those types of loans enable you to perform actions without using your funds for a really small percentage fee (0.09% at the time of writing on Aave and 0% on Dy/Dx). Flash loans can be used for arbitrage across DEXes, liquidation of positions on protocols like Dy/Dx, and migration of CDPs for example.
 
+[![Arbitrage Flash Loan exploit](https://img.youtube.com/vi/tKhbCpHM2gc/0.jpg)](https://www.youtube.com/watch?v=tKhbCpHM2gc)
+
 Another nice way to get ideas on what to build with flash loans is checking some transactions that are using flash loans and check what they are doing on a block explorer.
 
 Currently available flash loans protocols only offer to borrow one asset per transaction, but if you have ETH it is easy for example easy to get DAI by minting them or even use 1inch aggregator to swap to any other token.
@@ -9,7 +11,7 @@ Currently available flash loans protocols only offer to borrow one asset per tra
 • Visit https://remix.ethereum.org
 • Create a new file and name it contract.sol
 • Copy flashloan-contract.sol in contract.sol
-• Click compile and select Compiler v0.5.5+compiler
+• Click compile and select Compiler v0.5.0+compiler
 • Compile the contract - you should get a green check mark
 • Click on Deploy & Run Transactions
  - Switch enviroment to Inject Web3
